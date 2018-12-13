@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "AkBKukUKerned Medium";
+  src: url("AkBKukU.ttf");
+}
+
+html,body
+{
+	height: 100%;
+	background-color: #010101;
+	color: #fff;
+	font-family: "AkBKukUKerned Medium",sans-serif;
+	font-size: 1.5em;
+}
+
+#stuff
+{
+	height: 100%;
+}
+
+#goals
+{
+	position: absolute;
+	background-color: transparent;
+	height:100%;
+}
+
+#progress
+{
+	position: absolute;
+	top: 0px;
+	width: 15px;
+	height:100%;
+}

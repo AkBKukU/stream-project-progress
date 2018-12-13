@@ -1,0 +1,12 @@
+{
+	"goals":[
+		"Test Display",
+		"Build Serial Kit",
+		"Test Serial Kit",
+		"Combine Serial Kit Into Display",
+		"Final Test of Finished Unit"
+	],
+
+	"progress":0
+}
+
