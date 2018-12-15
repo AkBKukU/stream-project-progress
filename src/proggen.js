@@ -42,9 +42,11 @@ function updateProgess()
 		var project = JSON.parse(response);
 		var percent = ((100 / (project.goals.length))*project.progress)+(100 / (project.goals.length))/2;
 		var dom = document.getElementById('progress');
-		var gradient = 'linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) ' + (100- percent - 5) + '%,#8f0222 '+(100-percent)+'%,#e50003 100%)';
+//		var gradient = 'linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) ' + (100- percent - 5) + '%,#8f0222 '+(100-percent)+'%,#e50003 100%)';
 
-		dom.style.background = gradient;
+		//dom.style.background = gradient;
+		dom.style.height = ''+percent+'%';
+		//dom.style.marginTop = ''+(100-percent)+'%';
 	});
 
 }
